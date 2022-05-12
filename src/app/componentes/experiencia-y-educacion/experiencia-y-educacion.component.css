@@ -1,0 +1,62 @@
+.mat-card {
+  border-radius: 32px;
+  margin: 10px 10px;
+  padding: 20px;
+}
+.card-titles {
+  display: flex;
+}
+.card-titles h2 {
+  flex: 10;
+  margin: auto;
+}
+.card-titles .btn-edit {
+  flex: 1;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: flex-end;
+  display: flex;
+  text-align: end;
+}
+.btn-right {
+  display: flex;
+  align-self: flex-end;
+}
+ul.items-list {
+  list-style: none inside;
+}
+ul.items-list li {
+  display: flex;
+  margin: 10px 0;
+}
+ul.items-list li div.data-container {
+  flex-grow: 1;
+}
+ul.items-list li div.data-container a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+ul.items-list li div.data-container a div.logo-image-container {
+  margin: 10px 0;
+}
+ul.items-list li div.data-container a div.logo-image-container img.logo-image {
+  height: 60px;
+  width: 60px;
+}
+ul.items-list li div.data-container a div.list-info {
+  margin: 0 10px;
+}
+ul.items-list li div.data-container a div.list-info h3 {
+  color: black;
+  margin: 10px;
+}
+ul.items-list li div.data-container a div.list-info h4,
+ul.items-list li div.data-container a div.list-info time {
+  color: grey;
+  margin: 0 5px;
+}
+ul.items-list li div.data-container a div.list-info p {
+  color: black;
+  margin: 0 5px;
+}

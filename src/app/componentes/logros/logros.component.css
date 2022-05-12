@@ -1,0 +1,45 @@
+.mat-card {
+  border-radius: 32px;
+  margin: 10px 10px;
+  padding: 20px;
+}
+.card-titles {
+  display: flex;
+}
+.card-titles h2 {
+  flex: 10;
+  margin: auto;
+}
+.card-titles .btn-edit {
+  flex: 1;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: flex-end;
+  display: flex;
+  text-align: end;
+}
+.btn-right {
+  display: flex;
+  align-self: flex-end;
+}
+div.achivements {
+  display: flex;
+  position: relative;
+  padding: 16px 0 0 12px;
+}
+div.achivements h3 {
+  color: #0a66c2;
+  min-width: 64px;
+  text-align: right;
+  line-height: 36px;
+  margin-top: -3px;
+  padding-right: 12px;
+  font-size: 2rem;
+}
+div.achivements div.project-title h3 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+div.achivements ul.project-list li {
+  display: inline;
+}

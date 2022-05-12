@@ -1,0 +1,24 @@
+.mat-card {
+  border-radius: 32px;
+  margin: 10px 10px;
+  padding: 20px;
+}
+.card-titles {
+  display: flex;
+}
+.card-titles h2 {
+  flex: 10;
+  margin: auto;
+}
+.card-titles .btn-edit {
+  flex: 1;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: flex-end;
+  display: flex;
+  text-align: end;
+}
+.btn-right {
+  display: flex;
+  align-self: flex-end;
+}
